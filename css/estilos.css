@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: #f6f1e7;
+    color: #52685b;
+    text-align: center;
+}
+
+.portada {
+    background: #dcebe0;
+    padding: 60px 20px;
+    border-radius: 0 0 45px 45px;
+}
+
+.subtitulo {
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #527765;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #628675;
+    margin-bottom: 20px;
+}
+
+.foto-principal img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #fffaf0;
+    box-shadow: 0 5px 20px #00000020;
+}
+
+.descripcion {
+    max-width: 400px;
+    margin: 20px auto;
+    line-height: 1.7;
+}
+
+button,
+.confirmacion a,
+.detalles a {
+    display: inline-block;
+    background: #719783;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+section {
+    padding: 55px 20px;
+}
+
+.cumpleanero img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.cumpleanero h3 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.invitacion {
+    background: #e5eee4;
+    line-height: 1.8;
+}
+
+.invitacion p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.detalles {
+    background: #fffaf0;
+}
+
+.detalle {
+    margin: 25px 0;
+}
+
+.detalle span {
+    font-size: 30px;
+}
+
+.detalle h3 {
+    margin: 8px;
+}
+
+.reloj {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.reloj div {
+    background: #719783;
+    color: white;
+    padding: 18px 12px;
+    border-radius: 15px;
+    min-width: 75px;
+}
+
+.reloj strong {
+    display: block;
+    font-size: 28px;
+}
+
+.reloj span {
+    font-size: 12px;
+}
+
+.confirmacion {
+    background: #dcebe0;
+    line-height: 1.8;
+}
+
+footer {
+    background: #526f5e;
+    color: white;
+    padding: 25px;
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .foto-principal img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .reloj {
+        gap: 7px;
+    }
+
+    .reloj div {
+        min-width: 65px;
+        padding: 14px 8px;
+    }
+
+}
